@@ -1,0 +1,83 @@
+body {
+    width: 1440px;
+    background-color: var(--cor-primaria);
+    background-image: url('../images/bg-desktop.svg');
+}
+
+header {
+    padding: 50px 65px;
+}
+
+header img {
+    width: 17%;
+}
+
+main {
+    padding: 35px;
+    padding-left: 70px;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+
+main .conteudo-principal {
+    padding: 40px 55px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+
+
+main .conteudo-principal h1 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 40px;
+    margin-bottom: 25px;
+    color: #fff;
+}
+
+main .conteudo-principal p {
+    color: #fff;
+    font-size: 18px;
+    margin-bottom: 45px;
+}
+
+main .conteudo-principal .botao {
+    padding: 15px 60px;
+    background-color: #fff;
+    border-radius: 30px;
+    font-size: 19px;
+    color: var(--cor-primaria);
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+    transition: ease-in-out 0.2s;
+}
+
+main .conteudo-principal .botao:hover {
+    background-color: var(--cor-soft);
+    color: #fff;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+main .conteudo-principal .icons {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    width: 100%;
+    height: 50%;
+}
+
+main .conteudo-principal .icons i {
+    padding: 10px;
+    margin-left: 16px;
+    font-size: 20px;
+    color: #fff;
+    border: solid 1px;
+    border-radius: 50px;
+    transition: ease-in-out 0.3s;
+}
+
+main .conteudo-principal .icons i:hover {
+    color: var(--cor-soft);
+}
+
+
